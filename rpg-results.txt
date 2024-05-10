@@ -1,0 +1,8 @@
+Widget's health is: 81 and weapon is a Bola
+Storm_Trooper's health is: 85 and weapon is a Blaster
+Widget's health is: 81 and weapon is a Bola
+Storm_Trooper's health is: 89 and weapon is a Blaster
+Widget's health is: 86 and weapon is a Bola
+Storm_Trooper's health is: 89 and weapon is a Blaster
+Widget's health is: 86 and weapon is a Bola
+Storm_Trooper's health is: 92 and weapon is a Blaster

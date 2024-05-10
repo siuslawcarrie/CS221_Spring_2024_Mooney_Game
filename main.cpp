@@ -15,10 +15,10 @@ const int POTION = 3;
 
 
 int main() {
+    srand (time(NULL)); // random seed
     //output file open and write to it
     ofstream out;
-    out.open("C:\\Users\\siusl\\CLionProjects\\CS221 Mooney game\\rpg-results.txt");
-    //C:\Users\siusl\CLionProjects\CS221_Mooney_game
+    out.open("C:\\Users\\siusl\\CLionProjects\\CS221_Mooney_game\\rpg-results.txt");
     string Game_Location, P1_Name, P2_Name, P1_Weapon, P2_Weapon;
     int P1_Health, P2_Health;
     int Min_Fight, Max_Fight, Min_Heal, Max_Heal, Min_Weapon, Max_Weapon;
@@ -28,7 +28,7 @@ int main() {
     int P1_num_potion = 3, P2_num_potion = 3;
     //input file variables & open input file
     ifstream in;
-    in.open("C:\\Users\\siusl\\CLionProjects\\CS221 Mooney game\\rpg-data.txt");
+    in.open("C:\\Users\\siusl\\CLionProjects\\CS221_Mooney_game\\rpg-data.txt");
     if (in.good()) {
         in >> Game_Location;
         in >> P1_Name;

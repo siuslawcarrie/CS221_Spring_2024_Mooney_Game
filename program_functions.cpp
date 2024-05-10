@@ -4,7 +4,7 @@
 #include <stdlib.h>
 
 int random_number(int min, int max){
-    srand (time(NULL)); // random seed
+
     return rand() % (max - min) + min;
 }
 
